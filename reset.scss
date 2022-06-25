@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=New+Tegomin&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+@mixin btn {
+  padding: 15px 30px;
+  background: black;
+  font-size: 20px;
+  color: white;
+  border: 1px solid;
+  cursor: pointer;
+  transition: .4s;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+}
